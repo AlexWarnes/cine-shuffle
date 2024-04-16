@@ -13,10 +13,7 @@
   let error = $derived(!!data?.image.errors)
   let image = $derived(data?.image.errors ? fallbackImg() : data.image)
   $effect(() => {
-    console.log("[+page] - data:", {data, image, error})
-
     if (data.image.errors) console.log('image is bad, use fallback')
-
   })
 
 </script>

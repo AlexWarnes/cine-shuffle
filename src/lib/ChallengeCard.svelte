@@ -36,7 +36,6 @@
 		})
 	}
 	function handleImageLoad(){
-		console.log("IMAGE LOAD!")
 		imageLoaded = true
 	}
 
@@ -133,6 +132,10 @@ $effect(() => {
 		background-position: center;
 		background-size: cover;
 		background-repeat: repeat;
+	}
+
+	h1 {
+		font-weight: 500;
 	}
 
 	.content {

@@ -29,6 +29,9 @@ export const rulesLibrary: Record<string, BaseRule> = {
       'mobile',
       'long take',
       'match cut',
+      'push in',
+      'static shot',
+      'dolly zoom'
     ]
   },
   LIGHTS: {
@@ -38,7 +41,7 @@ export const rulesLibrary: Record<string, BaseRule> = {
       'red',
       'low key',
       'high key',
-      'wild practicals'
+      'practicals'
     ]
   },
   SOUND: {

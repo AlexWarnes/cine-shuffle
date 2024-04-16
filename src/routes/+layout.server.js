@@ -1,4 +1,4 @@
-import { UNSPLASH_ACCESS_KEY, UNSPLASH_SECRET_KEY } from "$env/static/private";
+import { UNSPLASH_ACCESS_KEY, } from "$env/static/private";
 import { error } from "@sveltejs/kit";
 const baseURL = "https://api.unsplash.com/photos/random"
 let err = 0
