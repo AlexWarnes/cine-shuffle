@@ -1,0 +1,73 @@
+:root {
+	/* CSS vars */
+	--theater-bg: #282b2fcc;
+	--theater-shadow: 0 1px 1px rgb(0 0 0 / 25%), 0 2px 6px rgb(0 0 0 / 15%);
+	--tweak-fg: #bbbcc4;
+	--tweak-bg-light: #bbbcc41a;
+	--tweak-bg-light-hover: #bbbcc426;
+	--tweak-bg-dark: #28292e;
+	--active-dark: #10101042;
+	--warning: #cd5c5c;
+	--primary: #006a6a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #sk-template-body, #sk-template-div {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4 {
+  font-family: sans-serif;
+}
+
+button {
+	border: none;
+	border-radius: 0.25rem;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	line-height: 1.25rem;
+	font-size: 0.75rem;
+	font-family: 'Roboto Mono', monospace;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.5rem;
+}
+button.primary {
+	background-color: var(--primary);
+	color: #fafbfc;
+	box-shadow: var(--theater-shadow);
+}
+button.secondary {
+	background-color: #adafb8;
+}
+button.tertiary {
+	color: var(--tweak-fg);
+	background-color: var(--tweak-bg-light);
+}
+button.icon-btn {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.35rem;
+  background-color: #00000010;
+	color: inherit;
+}
+
+.panel {
+	/* height: fit-content; */
+	padding: 0.625rem;
+	font-size: 0.75rem;
+	background-color: var(--tweak-bg-dark);
+	color: var(--tweak-fg);
+}
